@@ -4,23 +4,17 @@ const pokemonlist = [
   {
     name: 'Balbasaur',
     type: 'Grass/Poison',
-    hp: 200,
-    attack: 50,
-    defense: 100
+    hp: 200
   },
   {
     name: 'Charmander',
     type: 'Fire',
-    hp: 200,
-    attack: 100,
-    defense: 30
+    hp: 200
   },
   {
     name: 'Squirtle',
     type: 'Water',
-    hp: 200,
-    attack: 80,
-    defense: 50
+    hp: 200
   }
 ]
 
@@ -205,5 +199,3 @@ function listSkills(array) {
     console.log(i + '- ' + array[i].skill)
   }
 }
-
-
